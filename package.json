@@ -1,0 +1,27 @@
+{
+  "name": "onchain-agent-starter",
+  "version": "1.0.0",
+  "description": "Waterloo Blockchain — Onchain Agent Workshop starter repo",
+  "type": "module",
+  "scripts": {
+    "wallet": "npx tsx src/wallet.ts",
+    "transactions": "npx tsx src/transactions.ts",
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.22",
+    "@ai-sdk/openai": "^1.0.0",
+    "@coinbase/agentkit": "^0.10.3",
+    "@coinbase/agentkit-vercel-ai-sdk": "^0.1.0",
+    "ai": "^4.1.16",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "express": "^5.2.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "x402": "^1.1.0"
+  }
+}
